@@ -61,3 +61,7 @@ You can write commands in quotes after the log onto the server command to run it
 You can also write multiple commands in one line with semicolon seperate them.
 
 ![pleasant](pleasant.png)
+
+In the first part of code using `ssh cs15lwi22ac@ieng6.ucsd.edu "ls"` instead of logging on and then type `ls`, it save time for logging on, input password, and print out all those unnessecary logging information. Thus, even though it only saves 1 keystroke, but it saves about 5 seconds execute the command and saves the time printing and reading the logging information.
+
+You can also use "↑" key to recall last command you run. In this case, you can save a lot of time think up and re-type some commands. For example, when I type `ssh cs15lwi22ac@ieng6.ucsd.edu` I often need about 15 seconds to type. However, after I logged out and use the up arrow, I can save all this time and prevent type it wrong.

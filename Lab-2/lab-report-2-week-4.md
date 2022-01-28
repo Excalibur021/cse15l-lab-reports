@@ -25,7 +25,7 @@ Hence, we do the following change to the code
 
 ![Error-2_File-7_code-change.png](Error-2_File-7_code-change.png)
 
-In this error, the bug beneath it is if there is no close paranthesis after the open paranthesis, then 'markdown.indexOf(")", openParen)' will return -1, and cause the updated 'currentIndex' to be 0 in every loop. In test file 7, there is only ')\[' in the file. Hence, as says before, 'currentIndex' will always be 0 in every loop, resulting the infinite loop as seen in symptoms.
+In this error, the bug beneath it is if there is no close paranthesis after the open paranthesis, then `markdown.indexOf(")", openParen)` will return -1, and cause the updated 'currentIndex' to be 0 in every loop. In test file 7, there is only ')\[' in the file. Hence, as says before, 'currentIndex' will always be 0 in every loop, resulting the infinite loop as seen in symptoms.
 
 ---
 ## Third change to fix error
